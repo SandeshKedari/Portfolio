@@ -14,31 +14,23 @@ const Page = () => {
             <About/>
             <TechnicalSkills/>
             <Experience/>
-
-            <div className="footer m-1">
             <TimeLine/>
-            </div>
-
-
-
-
+     
         </>
+       // <Router>
+         //   <Titlebar />
+           // <Routes>
+             //   <Route path="/" element=<About /> />
+               // <Route path="/about" element=<About /> />
+                //<Route path="technicalskill" element=<TechnicalSkills /> />
+                //<Route path="experience" element=<Experience /> />
+                //<Route path="downloadcv" element=<TimeLine /> />               
+
+  //          </Routes>
+//        </Router>
 
     );
 };
 
 export default Page;
 
-// <Router>
-//             <Titlebar />
-//             <Routes>
-//                 <Route path="/" element={<About />} />
-
-//                 <Route path="technicalskill" element={<TechnicalSkills />} />
-//                 <Route path="experience" element={<Experience />} />
-//                 <Route path="downloadcv" element={<About />} />
-//                 <Route path="footer" element={<TimeLine />} />
-                 
-
-//             </Routes>
-//         </Router>
